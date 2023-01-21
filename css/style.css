@@ -1,0 +1,190 @@
+/* Start Nav Bar section*/
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+  height: 2000px;
+  background-color: blanchedalmond;
+}
+ul{
+    background-color: rgba(201, 199, 199, 0.37);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 40 px;
+    border: 1.5px solid rgba(197, 195, 195, 0.671);
+}
+
+ul li {
+ display: inline-block;
+ margin: 20px;
+ 
+}
+ul li :hover{
+   background-color:rgb(201, 199, 199, 0.671);
+}
+    
+  ul li a{
+    color: rgba(90, 89, 89, 0.979);
+    text-decoration: none;
+  }
+
+ /* Start Hero section*/
+
+.hero{
+    background-image: url('../Images/backgroud1.jfif');
+    height: 500px;
+    background-position: center center;
+}
+
+.hero h1{
+  text-align: center;
+  padding: 100px; 
+  color: rgba(15, 15, 15, 0.979);
+  font-family:"Lucida Handwriting";
+  font-size: 90px;
+  background-color:rgba(201, 199, 199, 0.26);
+  height: 300px;
+}
+
+
+.Welcome{
+  margin-top: 60px;
+  text-align: center;
+  width:80%;
+  margin:auto;
+  margin-top: 30px;
+}
+
+.Welcome h1{
+  margin-bottom: 30px;
+  color: rgba(90, 89, 89, 0.979);
+  font-family:"papyrus";
+  font-size: 40px;
+
+}
+.allbox{
+  display: flex;
+}
+.box{
+  width: 30%;
+  background-color:rgba(201, 199, 199, 0.37); 
+  margin:auto;
+  height: 400px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.box:hover{
+  background-color: rgba(255, 228, 196, 0.623);
+  box-shadow: 10px 10px 5px rgba(224, 223, 221, 0.623);
+}
+.box h3{
+  color: rgba(63, 62, 62, 0.979);
+  font-family:"papyrus";
+}
+.box h3:hover{
+  color: black;
+  font-size: 25px;
+}
+
+.box p{
+  color: black;
+  font-family:"papyrus";
+  font-size: 25px;
+}
+.box img{
+  border-radius: 30px;
+}
+
+i{
+font-size: 50px;
+border-radius: 50%;
+margin-bottom: 20px;
+}
+.content {
+  margin-top: 60px;
+  text-align: center;
+  width:80%;
+  margin:auto;
+  margin-top: 30px;
+}
+
+.content h1{
+  margin-bottom: 30px;
+  color: rgba(90, 89, 89, 0.979);
+  font-family:"papyrus";
+  font-size: 40px; 
+}
+.content p{
+  background-color:rgba(201, 199, 199, 0.37) ;
+  color: black;
+  font-family:"papyrus";
+  font-size: 25px;
+  border-radius: 30px;
+  margin: auto;
+}
+
+.content img{
+  margin: auto;
+  margin-top:20px ;
+  width:300px;
+  height:300px;
+  border-radius: 30px;
+}  
+.content i {
+  color:black;
+}
+
+
+ /* contacut us section*/
+.contact_Us{
+margin: 50px;
+margin-bottom: 30px;
+
+}
+.contact_Us .contact_Form{
+  width:60%;
+  background-color:rgba(201, 199, 199, 0.37) ;
+  padding: 30px;
+  margin: auto;
+  border-radius: 30px;
+  text-align: center;
+}
+.input-form input{
+  width:400px;
+  height:30px;
+  border-radius:5px ;
+  margin-bottom: 20px;
+}
+
+.input-form input:focus{
+  border: 1px solid rgba(99, 97, 97, 0.37);
+  outline: none;
+}
+.input-form textarea {
+  width:400px;
+  height:200px;
+  border-radius:5px ;
+  margin-bottom: 20px;
+}
+.input-form textarea:focus{
+  border: 1px solid rgba(99, 97, 97, 0.37);
+  outline: none;
+}
+.Send{
+  background-color: rgb(243, 230, 206);
+  width: 300px;
+  height:40px;
+  Color: rgba(90, 89, 89, 0.979);
+  font-family:"papyrus";
+  font-size: 25px;
+  border:1px solid rgba(99, 97, 97, 0.37);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.Footer{
+  color: rgba(90, 89, 89, 0.979);
+  text-align: center;
+}
